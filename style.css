@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #fdfac7;
   }
   
   .app {
@@ -11,7 +12,7 @@ body {
   }
   
   .todo-list {
-    background-color: #333;
+    background-color: #204b5e;
     font-family: "Helvetica", sans-serif;
     padding: 1rem;
     min-width: 400px;
@@ -38,18 +39,21 @@ body {
   }
   .form-input {
     outline: none;
-    background-color: #F6F1D1;
+    background-color: #426b65;
     border-color: rgba(255, 255, 255, 0.1);
+    color: white;
   }
   .form-button {
     border: 1px;
-    background: #F6F1D1;
+    background: #426b65;
     text-transform: uppercase;
+    color: white;
     cursor: pointer;
     margin-left: 0.25rem;
   }
   .form-button:hover {
-    color: #F6F1D1;
+    color: #426b65;
+    color: white;
     background: rgba(246, 241, 209, 0.1);
   }
   
