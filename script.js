@@ -1,8 +1,8 @@
 (() => {
     const criarTarefa = (event) => {
       event.preventDefault();
-      const lista = document.querySelector("[data-list]");
-      const input = document.querySelector("[data-form-input]");
+      const lista = document.getElementById("dados-lista");
+      const input = document.getElementById("form-input");
       const valor = input.value;
   
       const tarefa = document.createElement("li");
@@ -19,7 +19,7 @@
       input.value = "";
     };
   
-    const novaTarefa = document.querySelector("[data-form-button]");
+    const novaTarefa = document.getElementById("form-button");
   
     novaTarefa.addEventListener("click", criarTarefa);
   
